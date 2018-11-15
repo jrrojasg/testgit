@@ -6,4 +6,10 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.get('/hotfix', function(req, res, next) {
+  res.send('respond with a resourcehotfix');
+});
+
+
+
 module.exports = router;
