@@ -34,5 +34,9 @@ router.get('/test7', function(req, res, next) {
   res.send('respond with a resource7');
 });
 
+router.get('/test8', function(req, res, next) {
+  res.send('respond with a resource8');
+});
+
 
 module.exports = router;
